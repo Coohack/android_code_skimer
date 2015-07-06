@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--app theme-->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!--<item name="android:colorPrimaryDark">@color/status_bar</item>-->
+        <!--<item name="android:navigationBarColor">@color/navigation_bar</item>-->
+    </style>
+
+    <!--main activity-->
+    <style name="MainWebView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/main_activity_background</item>
+    </style>
+
+    <style name="MainMenuButton">
+        <item name="android:layout_width">@dimen/main_menu_button_size</item>
+        <item name="android:layout_height">@dimen/main_menu_button_size</item>
+        <item name="android:layout_gravity">end|bottom</item>
+        <item name="android:text">@string/main_menu_text</item>
+    </style>
+
+    <!--select file activity-->
+    <style name="SelectFileActivity" parent="android:Theme.Holo.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!--<item name="android:colorPrimaryDark">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+    </style>
+
+    <style name="SelectFileList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/select_file_list_margin</item>
+        <item name="android:padding">@dimen/select_file_list_padding</item>
+        <item name="android:background">@drawable/select_file_list_background</item>
+    </style>
+
+    <style name="SelectFileItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/select_file_item_padding</item>
+    </style>
+
+    <style name="SelectFileItemImage">
+        <item name="android:layout_width">@dimen/select_file_item_image_size</item>
+        <item name="android:layout_height">@dimen/select_file_item_image_size</item>
+    </style>
+
+    <style name="SelectFileItemText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">@dimen/select_file_item_text_padding_left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/select_file_item_text_size</item>
+    </style>
+</resources>

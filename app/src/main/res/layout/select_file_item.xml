@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/SelectFileList"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/selectFileItemImage"
+        style="@style/SelectFileItemImage"/>
+
+    <TextView
+        android:id="@+id/selectFileItemText"
+        style="@style/SelectFileItemText"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_bar">#cc6600</color>
+    <color name="navigation_bar">#cc6633</color>
+    <color name="main_activity_background">#333333</color>
+
+    <color name="select_file_list_background">#0099cc</color>
+</resources>

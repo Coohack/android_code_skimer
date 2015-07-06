@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_menu_button_size">60dp</dimen>
+
+    <dimen name="select_file_list_corner">15dp</dimen>
+    <dimen name="select_file_list_margin">30dp</dimen>
+    <dimen name="select_file_list_padding">10dp</dimen>
+
+    <dimen name="select_file_item_padding">5dp</dimen>
+    <dimen name="select_file_item_image_size">50dp</dimen>
+    <dimen name="select_file_item_text_padding_left">20dp</dimen>
+    <dimen name="select_file_item_text_size">20sp</dimen>
+</resources>

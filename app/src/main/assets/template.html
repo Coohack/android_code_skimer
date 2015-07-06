@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>this is test</title>
+    <script src="./loader/prettify.js"></script>
+    <link rel="stylesheet" href="./loader/skins/desert.css">
+    <style>
+        body {
+        background-color: #333333;
+        padding: 20px;
+        }
+        pre.prettyprint {
+        background: none;
+        }
+    </style>
+    <script>
+    function refresh() {
+        document.getElementById("codePre").className="prettyprint linenums";
+        document.getElementById("codePre").innerHTML=getFile.getFileString();
+        prettyPrint();
+    }
+
+    </script>
+</head>
+<body id="body">
+<pre class="prettyprint linenums" style="font-size:20px" id="codePre"></pre>
+</body>
+</html>
